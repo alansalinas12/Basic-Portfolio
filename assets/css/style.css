@@ -3,32 +3,41 @@
 	padding: 15px;
 	background-color: #4aaaa5;
 	color: white;
+	position: relative;
 }
 
 .main{
 	background-color: gray;
+
 }
 
-.teal {color: #4aaaa5;}
+.teal {
+	color: #4aaaa5;
+}
 
 .wrapperDoc {
     margin: auto;
     width: 960px;
     padding: 10px;
     background-color: gray;
+
 }
 
 .aboutmeBox{
-	width: 650px;
+	width: 610px;
 	background-color: white;
 	float: left;
+	padding: 20px;
+	word-wrap: break-word;
+	position: relative;
 }
 
 .sidebarBox{
-	width: 270px;
+	width: 230px;
 	background-color: white;
 	float: right;
 	text-align: center;
+	padding: 20px;
 }
 
 .buttons{
@@ -39,4 +48,48 @@
 .header{
 	background-color: white;
 	align-content: center;
+	top: 0;
+	left: 0;
+	padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.foot{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: green;
+   color: white;
+   height: 60px;
+   text-align: center;
+   border-top: solid;
+   border-width: 8px;
+   border-color: #4aaaa5;
+}
+
+.experiment{
+   position: absolute;
+   left: 0;
+   top: 0;
+   right: 0;
+   width: 100%;
+   background-color: green;
+   color: white;
+   height: 60px;
+   text-align: center;
+}
+
+.submitButton{
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
