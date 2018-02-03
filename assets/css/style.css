@@ -1,95 +1,183 @@
-.boxName{
-	width: 200px;
-	padding: 15px;
-	background-color: #4aaaa5;
-	color: white;
-	position: relative;
+.clear-fix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.main{
-	background-color: gray;
-
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  margin-bottom: 25px;
+  top: 0;
 }
 
-.teal {
-	color: #4aaaa5;
+.name {
+  height: 80px;
+  line-height: 80px;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  padding: 0 25px;
+  font-size: 28px;
+  float: left;
+  font-weight: bold;
 }
 
-.wrapperDoc {
-    margin: auto;
-    width: 960px;
-    padding: 10px;
-    background-color: gray;
-
+.nav a{
+  color: #777777;
+  text-decoration: none;
 }
 
-.aboutmeBox{
-	width: 610px;
-	background-color: white;
-	float: left;
-	padding: 20px;
-	word-wrap: break-word;
-	position: relative;
+
+footer {
+  position: fixed;
+  bottom: 0;
+  clear: both;
+  background-color: #666666;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0 15px 0;
+  border-top: 7px solid #4aaaa5;
+  color: #ffffff;
+  font-size: 14px;
 }
 
-.sidebarBox{
-	width: 230px;
-	background-color: white;
-	float: right;
-	text-align: center;
-	padding: 20px;
+.content{
+  width: 960px;
+  margin: 0 auto;
+  height: 0 inherit;
+  line-height: inherit;
+  margin-bottom: 85px;
 }
 
-.buttons{
-	background-color: white;
-	float: right;
+body {
+  font: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777777;
 }
 
-.header{
-	background-color: white;
-	align-content: center;
-	top: 0;
-	left: 0;
-	padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
+.left-div {
+  background-color: #ffffff;
+  width: 610px;
+  padding: 28px 20px;
+  float: left;
 }
 
-.foot{
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: green;
-   color: white;
-   height: 60px;
-   text-align: center;
-   border-top: solid;
-   border-width: 8px;
-   border-color: #4aaaa5;
+.right-div {
+  background-color: #ffffff;
+  width: 230px;
+  padding: 28px 20px;
+  float: right;
 }
 
-.experiment{
-   position: absolute;
-   left: 0;
-   top: 0;
-   right: 0;
-   width: 100%;
-   background-color: green;
-   color: white;
-   height: 60px;
-   text-align: center;
+h1 {
+  font-size: 24px;
+  padding-bottom: 28px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #cccccc;
+  font-weight: bold;
 }
 
-.submitButton{
-	background-color: #4aaaa5;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 28px;
+}
+
+h1, h2 {
+  color: #4aaaa5;
+}
+
+h1, h2, .name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav {
+  font-size: 18px;
+  float: right;
+}
+
+.navlinks {
+  margin: 0 15px;
+}
+
+.myfoto {
+  width: 40%;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+}
+
+.social-links {
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  border: 0;
+  vertical-align: bottom;
+  float: left;
+}
+
+Contact
+
+.input-label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.text-input {
+  width: 100%;
+  border: 2px solid rgb(197, 197, 197);
+  font-size: 16px;
+  padding: 6px 7px;
+  margin-bottom: 20px;
+}
+
+.msg-box {
+    height: 150px;
+  }
+
+.submit-button {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4aaaa5;
+  color: white;
+  border: 2px solid #3b8581;
+}
+
+
+Portfolio Page
+
+img {
+  max-width: 100%;
+  max-height: 100%
+}
+
+table.table-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-link {
+  width: 280px;
+  margin: 10px 10px;
+  text-align: center;
+  position: relative;
+}
+
+.portfolio-link a {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.portfoliotext {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  margin: 20px auto;
+  background-color: #4aaaa5;
+  padding: 20px 0;
+  box-shadow: 0px 9px 16px -6px rgba(28,28,28,1);
 }
